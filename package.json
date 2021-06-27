@@ -5,7 +5,7 @@
   "author": "Mike Nestor <mike@nolacon.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "prebuild": "hugo",
+    "prebuild": "hugo --minify",
     "build:minify": "node tools/minify.js",
     "build:pdf": "mkdir -p public/schedule; node tools/pdf.js",
     "build": "run-s build:*"
