@@ -32,9 +32,9 @@ enableMissingTranslationPlaceholders = true
     googleWebmasterKey = "BcIJYWDHoblML5DO66_b1BGBne9J_7Oq3GjC5SDCKK8"
 
 [params.logos]
-    jumbo = "/images/logos/devfest_color_text.png"
-    header = "/images/logos/devfest_color_text.png"
-    footer = "/images/logos/devfest_gray_text.png"
+    jumbo = "/images/logos/jumbo.png"
+    header = "/images/logos/header.png"
+    footer = "/images/logos/header.png"
 
 #[menu]
 #[[menu.main]]

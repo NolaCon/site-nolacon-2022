@@ -1,0 +1,14 @@
+- key: lunchroom
+  label: Cenareo
+  description: Hall sponsors / Salle déjeuner
+  skip: true
+- key: halls
+  label: Halls
+  description: Halls
+  skip: true
+- key: room1
+  label: Grant Ballroom D
+  description: Grant Ballroom D
+- key: room2
+  label: Grant Ballroom C
+  description: Grant Ballroom D
