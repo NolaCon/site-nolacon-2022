@@ -1,4 +1,5 @@
-baseURL = "https://sandbox.nolacon.com/"
+baseURL = "https://nolacon.github.io/site-nolacon-2022/"
+canonifyURLs = true
 languageCode = "en-us"
 title = "Nolacon"
 theme = "nolacon-theme-hugo"
