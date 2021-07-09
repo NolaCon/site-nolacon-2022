@@ -24,9 +24,11 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '15'
+      
+      - name: Install all the npm packages
+        run: npm install --with=dev
 
       - name: Build
-        run: npm install --with=dev
         run: npm run build
 
       - name: Deploy
