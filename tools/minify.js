@@ -2,9 +2,10 @@ const {readFileSync, writeFileSync} = require('fs');
 const {sync: glob} = require('glob');
 const {minify} = require('html-minifier');
 const {Logger, LogLevel} = require('plop-logger');
-const {colorEmojiConfig} = require('plop-logger/lib/extra/colorEmojiConfig');
+// const {colorEmojiConfig} = require("plop-logger/extra/colorEmojiConfig");
 
-Logger.config = colorEmojiConfig;
+
+// Logger.config = colorEmojiConfig;
 const logger = Logger.getLogger('minifier');
 logger.level = LogLevel.All;
 
