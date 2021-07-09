@@ -1,10 +1,10 @@
 const puppeteer = require('puppeteer');
 const {Logger, LogLevel} = require('plop-logger');
-const {colorEmojiConfig} = require('plop-logger/lib/extra/colorEmojiConfig');
+// const {colorEmojiConfig} = require('plop-logger/lib/extra/colorEmojiConfig');
 const handler = require('serve-handler');
 const http = require('http');
 
-Logger.config = colorEmojiConfig;
+// Logger.config = colorEmojiConfig;
 Logger.config.defaultLevel = LogLevel.Debug;
 const logger = Logger.getLogger('pdf');
 
