@@ -42,13 +42,20 @@ enableMissingTranslationPlaceholders = true
     header = "/images/logos/header.png"
     footer = "/images/logos/header.png"
 
-#[menu]
+[menu]
+[[menu.main]]
+    identifier = "call-for-papers"
+    name = "CFP"
+    url = "https://jobs.devfesttoulouse.fr/"
+    weight = 300
+    external = true
+
 #[[menu.main]]
 #    identifier = "jobs"
 #    name = "Jobs"
 #    url = "https://jobs.devfesttoulouse.fr/"
 #    weight = 200
-#    external = true
+#    external = false
 
 #[languages]
 #[languages.en]
