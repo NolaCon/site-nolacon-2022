@@ -18,38 +18,33 @@ menu:
 ### Conference: May 16-19, 2022
 
 <!-- <a class="btn primary btn-lg" style="margin-top: 1em;" href="https://drive.google.com/file/d/1td_9Cr1b2JZvv0bCpOCJNDsEWgVgEp2Y/view?usp=sharing" target="_blank">Become a sponsor</a> -->
+{{< button-link label="Submit a presentation"
+                url="https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
+                icon="cfp" >}}
 
-<!--
-<a class="btn primary btn-lg" href="https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi">
+<!-- <a class="btn primary btn-lg" href="https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi">
     <svg class="icon icon-cfp"><use xlink:href="#cfp"></use></svg>Submit a presentation
-</a>
--->
+</a> -->
 
 {{% /jumbo %}}
 
 
 
 {{% home-info what="Participants:500,Day:3,Sessions:28,Parallel Tracks:2" class="primary" %}}
+
 ## What is NolaCon?
 
 NolaCon is an Information Security/Hacker conference for professionals and enthusiasts alike located in New Orleans, offering training as well interesting and inventive talks and workshops.
+
 {{% /home-info %}}
 
-
-<!-- {{< youtube-section link="AFhHrQIAw3g" title="Watch 2019 into" class="" >}} -->
-
-<!-- ... -->
-
-
-
 {{% home-speakers %}}
+                
 ## Featured Speakers
-
-<!--
+                
 {{< button-link label="Submit a presentation"
                 url="https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
                 icon="cfp" >}}
---> 
 
 {{< button-link label="See all speakers"
                 url="./speakers"

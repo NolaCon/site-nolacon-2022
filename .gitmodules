@@ -1,6 +1,3 @@
-[submodule "nolacon-theme-hugo"]
-	path = nolacon-theme-hugo
-	url = git@github.com:NolaCon/nolacon-theme-hugo.git
 [submodule "themes/nolacon-theme-hugo"]
 	path = themes/nolacon-theme-hugo
 	url = git@github.com:NolaCon/nolacon-theme-hugo.git
