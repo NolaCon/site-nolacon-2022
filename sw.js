@@ -1,4 +1,4 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js');
 
 if (workbox) {
   console.log("Yay! Workbox is loaded 🎉");
@@ -18,7 +18,7 @@ if (workbox) {
     new workbox.strategies.CacheFirst({
       cacheName: 'image-cache',
       plugins: [
-        new workbox.expiration.Plugin({
+        new workbox.expiration.ExpirationPlugin({
           maxEntries: 20, // Cache only 20 images.
           maxAgeSeconds: 7 * 24 * 60 * 60, // Cache for a maximum of a week.
         })
@@ -40,10 +40,10 @@ if (workbox) {
     new workbox.strategies.CacheFirst({
       cacheName: 'google-fonts-webfonts',
       plugins: [
-        new workbox.cacheableResponse.Plugin({
+        new workbox.cacheableResponse.CacheableResponsePlugin({
           statuses: [0, 200],
         }),
-        new workbox.expiration.Plugin({
+        new workbox.expiration.ExpirationPlugin({
           maxAgeSeconds: 60 * 60 * 24 * 365,
           maxEntries: 30,
         })
@@ -53,7 +53,7 @@ if (workbox) {
 
 
   // Workbox injection point
-  workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
+  workbox.precaching.precacheAndRoute([]);
 
 } else {
   console.log("Boo! Workbox didn't load 😬");
