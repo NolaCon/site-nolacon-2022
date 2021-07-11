@@ -1,3 +1,4 @@
 [submodule "themes/nolacon-theme-hugo"]
 	path = themes/nolacon-theme-hugo
 	url = git@github.com:NolaCon/nolacon-theme-hugo.git
+	update = merge
