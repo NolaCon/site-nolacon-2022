@@ -7,6 +7,15 @@ menu:
 
 draft: false
 
+sponsors:
+  - name: HushCon
+    order: 1
+    img: HCcircle.png
+    url: https://hushcon.com
+  - name: HushCon2
+    img: HCcircle.png
+    order: 2
+    url: https://hushcon.com2
 ---
 
 {{% hero %}}
@@ -23,3 +32,4 @@ NolaCon 2020 Sponsor Pack
 <!-- ... -->
 
 {{% sponsors %}}
+
