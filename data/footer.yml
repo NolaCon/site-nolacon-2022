@@ -32,17 +32,15 @@ content:
         url: /code-of-conduct/
         newTab: false
 
-  - title: footer_previous_edition
-    links:
-      - name: Nolacon 2018
-        url: https://2018.nolacon.com/
-        newTab: true
-      - name: Nolacon 2017
-        url: https://2017.nolacon.com/
-        newTab: true
-      # - name: DevFest Toulouse 2016
-      #   url: https://2016.devfesttoulouse.fr/
-      #   newTab: true
+  # # add this back when we have previous cons setup
+  # - title: footer_previous_edition
+  #   links:
+  #     - name: Nolacon 2018
+  #       url: https://2018.nolacon.com/
+  #       newTab: true
+  #     - name: Nolacon 2017
+  #       url: https://2017.nolacon.com/
+  #       newTab: true
 
   # - title: footer_become_partners
   #   links:

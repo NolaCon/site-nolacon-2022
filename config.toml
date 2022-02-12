@@ -1,4 +1,5 @@
-baseURL = "https://nolacon.github.io/site-nolacon-2022/"
+baseURL = "https://nolacon.github.io/"
+# site-nolacon-2022/"
 canonifyURLs = true
 languageCode = "en-us"
 title = "Nolacon"
@@ -28,7 +29,7 @@ enableMissingTranslationPlaceholders = true
     cfpUrl = "https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
 
     # email subscription url
-    subscriptionUrl = "http://eepurl.com/dps1j5"
+    subscriptionUrl = "https://nolacon.us3.list-manage.com/subscribe/post?u=cc1ef3ee95024f9bf3ce37df1&id=94ee29ea76"
     appleTouchIcon = "/apple-touch-icon.png"
     favicon32 = "/favicon-32x32.png"
     favicon16 = "/favicon-16x16.png"

@@ -28,8 +28,6 @@ menu:
 
 {{% /jumbo %}}
 
-
-
 {{% home-info what="Participants:500,Day:3,Sessions:28,Parallel Tracks:2" class="primary" %}}
 
 ## What is NolaCon?
@@ -106,9 +104,7 @@ NolaCon is an Information Security/Hacker conference for professionals and enthu
     latitude="29.955041101212252"
     longitude="-90.07004187954813" %}}
 
-## The Venue
-
-### Hyatt Centric - New Orleans
+## Hyatt Centric - New Orleans
 
 The Centre de Congrès Pierre Baudis is a modern place of exchange,
 located on a privileged location,
@@ -118,16 +114,16 @@ in the immediate vicinity of the centre of Toulouse and in a green environment.
 
 <!-- ... -->
 
-<!-- {{% album images="/images/album/2018/_25A9313.jpg,/images/album/2018/_25A9386.jpg,/images/album/2018/_25A9671.jpg,/images/album/2018/_25A9334.jpg,/images/album/2018/_25A9282.jpg,/images/album/2018/_25A9612.jpg,/images/album/2018/_25A9452.jpg,/images/album/2018/_25A9628.jpg" %}}
+{{% album images="/images/front/dj.jpg,/images/front/dualcore.jpg,/images/front/night.jpg,/images/front/nolacon2019.png,/images/front/nolacon2020.png,/images/front/talk.jpg" %}}
 
-### Some pictures of the **DevFest Toulouse 2018** with the 👾 _retro-gaming_ theme.
+### Some pictures of past **Nolacon** conferences.
 
-<a class="btn primary" target="_blank" rel="noopener" href="https://photos.app.goo.gl/nJYFVReFUk9mnXbv9">
+<!-- <a class="btn primary" target="_blank" rel="noopener" href="https://photos.app.goo.gl/nJYFVReFUk9mnXbv9">
     See all photos
     {{% icon "right" %}}
-</a>
+</a> -->
 
-{{% /album  %}} -->
+{{% /album  %}}
 
 <!-- ... --> 
 

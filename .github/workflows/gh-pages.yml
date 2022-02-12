@@ -18,12 +18,12 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.85.0'
+          hugo-version: '0.92.2'
           # extended: true
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '15'
+          node-version: '16'
       
       - name: Install all the npm packages
         run: npm install --with=dev
